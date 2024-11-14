@@ -7,8 +7,9 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
-        mavenCentral()
         gradlePluginPortal()
+        google()
+        mavenCentral()
     }
 }
 dependencyResolutionManagement {
@@ -21,4 +22,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "customTabWebview"
 include(":app")
- 
+include(":custom-tab-webview-library")
